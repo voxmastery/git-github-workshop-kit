@@ -13,7 +13,7 @@ Everything we do today is in this repo, in order. Keep it open in a browser tab 
 | 5 | [GitHub Pages](05-github-pages.md) | A live URL you can send anyone |
 | 6 | [Profile README](06-profile-readme.md) | Take-home: a profile that looks like a developer's |
 
-Also here: the one-page [cheat sheet](cheatsheet.md), the [troubleshooting](troubleshooting.md) list for when something goes red, and [what to learn next](next-steps.md).
+Also here: the [team project commands](team-commands.md) on one page, the [cheat sheet](cheatsheet.md), the [troubleshooting](troubleshooting.md) list for when something goes red, and [what to learn next](next-steps.md).
 
 **How to read this:** each step has commands in grey boxes. Type them one line at a time and press Enter after each. Anything after `#` is a note for you, not something to type. Replace `YOUR-USERNAME` with your GitHub username.
 
