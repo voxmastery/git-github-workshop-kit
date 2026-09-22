@@ -31,7 +31,7 @@ We use **Google Antigravity**, a free AI editor built on VS Code. Same terminal,
 2. Install, open it, **sign in with your Google account**.
 3. Open the terminal inside it: **View → Terminal** (or `` Ctrl+` ``). Every command in this kit runs there.
 
-**If the download is slow or the install fails**, don't wait: the site files in this repo are already complete with comments and `CHANGE THIS` markers, so no AI is needed to do every step today. Install install **VS Code** instead (https://code.visualstudio.com), it's identical for everything in this kit except the AI panel, and your teammate's Antigravity can build the site. Codespaces (0.7) is the fallback after that.
+**If the download is slow or the install fails**, don't wait: the site files in this repo are already complete with comments and `CHANGE THIS` markers, so no AI is needed to do every step today. Install **VS Code** instead (https://code.visualstudio.com), it's identical for everything in this kit except the AI panel, and your teammate's Antigravity can build the site. Codespaces (0.8) is the fallback after that.
 
 **One rule with the AI agent:** it will offer to run `git` commands for you. **Say no.** You type the Git commands yourself today; that's the whole point. Use the agent for HTML and CSS only.
 
