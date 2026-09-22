@@ -1,0 +1,12 @@
+# secrets — never commit these
+.env
+*.pem
+
+# dependencies
+node_modules/
+__pycache__/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/

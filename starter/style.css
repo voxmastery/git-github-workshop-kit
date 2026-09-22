@@ -1,0 +1,8 @@
+:root { --ink:#1d2433; --paper:#fbfaf7; --mark:#f05033; }
+* { box-sizing:border-box; }
+body { margin:0; font:18px/1.6 system-ui, sans-serif; color:var(--ink); background:var(--paper); }
+main { max-width:640px; margin:8vh auto; padding:0 24px; }
+h1 { font-size:2.4rem; margin:0 0 .2em; }
+.sub { color:#6b6457; margin-top:0; }
+h2 { margin-top:2em; font-size:1.2rem; }
+a { color:var(--mark); }
