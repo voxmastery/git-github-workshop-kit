@@ -1,6 +1,15 @@
-// OWNER: <your GitHub username>
-// Task: replace the placeholder below with the footer section of the site.
-// Work on your own branch: git switch -c feature/footer
+// ============================================================
+//  FOOTER — owned by: <your GitHub username>
+//  Branch: git switch -c feature/footer
+// ============================================================
+//
+//  Fills the <footer id="footer"> box at the bottom.
+//  Change the lines marked  <-- CHANGE THIS
+
 document.getElementById("footer").innerHTML = `
-  <div class="todo">footer section: not built yet</div>
+  <p style="border-top:1px solid #d9d4c7; padding-top:1rem; color:#6b6457; font-size:.9rem;">
+    © 2026 Cynergy Coding Club            <!-- CHANGE THIS: your team name -->
+    · Built by Team &lt;name&gt;           <!-- CHANGE THIS: your team name -->
+    · Made with Git &amp; GitHub 🚀
+  </p>
 `;

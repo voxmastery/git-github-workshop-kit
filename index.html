@@ -1,20 +1,42 @@
 <!doctype html>
+<!--
+  TEAM SITE — index.html
+  ----------------------
+  This is the page. It has four empty boxes (sections). Each teammate owns ONE box,
+  and fills it from their own file in the sections/ folder:
+
+      sections/navbar.js   -> fills <header id="navbar">
+      sections/events.js   -> fills <section id="events">
+      sections/contact.js  -> fills <section id="contact">
+      sections/footer.js   -> fills <footer id="footer">
+
+  You normally DON'T edit this file. Edit YOUR file in sections/.
+  To see the site: double-click index.html so it opens in a browser. Refresh after every change.
+-->
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CHANGE THIS if your team wants a different site name -->
   <title>RUAS Campus Events</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Each section is owned by one team member. Edit ONLY your file in /sections. -->
+  <!-- Box 1: navbar (top bar with links) -->
   <header id="navbar"></header>
+
   <main>
+    <!-- Box 2: events (the cards) -->
     <section id="events"></section>
+
+    <!-- Box 3: contact -->
     <section id="contact"></section>
   </main>
+
+  <!-- Box 4: footer -->
   <footer id="footer"></footer>
 
+  <!-- These four lines load each teammate's file. Don't reorder or delete them. -->
   <script src="sections/navbar.js"></script>
   <script src="sections/events.js"></script>
   <script src="sections/contact.js"></script>

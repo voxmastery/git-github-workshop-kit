@@ -1,6 +1,22 @@
-// OWNER: <your GitHub username>
-// Task: replace the placeholder below with the contact section of the site.
-// Work on your own branch: git switch -c feature/contact
+// ============================================================
+//  CONTACT — owned by: <your GitHub username>
+//  Branch: git switch -c feature/contact
+// ============================================================
+//
+//  Fills the <section id="contact"> box.
+//  Change the lines marked  <-- CHANGE THIS
+
 document.getElementById("contact").innerHTML = `
-  <div class="todo">contact section: not built yet</div>
+  <h2>Contact</h2>
+
+  <p>
+    Run by <strong>Cynergy Coding Club</strong>, Dept. of CSE, RUAS.   <!-- CHANGE THIS: your club / team name -->
+  </p>
+
+  <p>
+    Email: <a href="mailto:cynergy@example.com">cynergy@example.com</a><br>   <!-- CHANGE THIS -->
+    Instagram: <a href="https://instagram.com/cynergy_ruas">@cynergy_ruas</a>  <!-- CHANGE THIS -->
+  </p>
+
+  <p>Want to join? Message us and we'll add you to the group.</p>   <!-- CHANGE THIS: your one-line invite -->
 `;

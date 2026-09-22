@@ -31,7 +31,7 @@ We use **Google Antigravity**, a free AI editor built on VS Code. Same terminal,
 2. Install, open it, **sign in with your Google account**.
 3. Open the terminal inside it: **View → Terminal** (or `` Ctrl+` ``). Every command in this kit runs there.
 
-**If the download is slow or the install fails**, don't wait: install **VS Code** instead (https://code.visualstudio.com), it's identical for everything in this kit except the AI panel, and your teammate's Antigravity can build the site. Codespaces (0.7) is the fallback after that.
+**If the download is slow or the install fails**, don't wait: the site files in this repo are already complete with comments and `CHANGE THIS` markers, so no AI is needed to do every step today. Install install **VS Code** instead (https://code.visualstudio.com), it's identical for everything in this kit except the AI panel, and your teammate's Antigravity can build the site. Codespaces (0.7) is the fallback after that.
 
 **One rule with the AI agent:** it will offer to run `git` commands for you. **Say no.** You type the Git commands yourself today; that's the whole point. Use the agent for HTML and CSS only.
 
@@ -66,7 +66,10 @@ GitHub does **not** accept your account password in the terminal. Nothing to do 
 - **Windows:** the first time you `git push`, a browser window opens. Log in there. Done forever.
 - **Mac/Linux:** same browser prompt on first push. If it asks for a password in the terminal instead, tell a volunteer; they'll set up GitHub CLI (`gh auth login`).
 
-## 0.7 If Git won't install (locked college laptop, etc.)
+## 0.7 Need the files without Git?
+On this repo: green **Code** button → **Download ZIP**. Unzip, double-click `index.html`. You can edit and see the site, and do the Git steps later.
+
+## 0.8 If Git won't install (locked college laptop, etc.)
 Use **Codespaces**, a VS Code in your browser:
 1. Open the repo on github.com
 2. Click the green **Code** button → **Codespaces** → **Create codespace on main**

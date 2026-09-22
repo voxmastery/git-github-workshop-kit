@@ -1,8 +1,70 @@
-:root { --ink:#1d2433; --paper:#fbfaf7; --line:#d9d4c7; --mark:#2f6f5e; }
-* { box-sizing:border-box; }
-body { margin:0; font:17px/1.6 "Segoe UI", system-ui, sans-serif; color:var(--ink); background:var(--paper); }
-header, main, footer { max-width:760px; margin:0 auto; padding:1.5rem; }
-section { border-top:1px solid var(--line); padding:1.5rem 0; }
-h1, h2 { line-height:1.2; }
-a { color:var(--mark); }
-.todo { border:2px dashed var(--line); padding:1rem; color:#6b6457; }
+/*
+  TEAM SITE — style.css
+  ---------------------
+  The look of the whole site lives here. Anyone can tweak the values at the top;
+  the rules below use them, so one change updates everything.
+
+  Pro tip: change ONE thing, save, refresh the browser, see what happened.
+*/
+
+:root {
+  /* ===== CHANGE THESE ===== */
+  --accent: #f05033;          /* main colour: buttons, links, highlights. Try #2f6f5e or #7a5cff */
+  --ink:    #1d2433;          /* text colour */
+  --paper:  #fbfaf7;          /* page background */
+  --line:   #d9d4c7;          /* light borders */
+  --font:   "Segoe UI", system-ui, sans-serif;   /* try Georgia, serif  for a different feel */
+  /* ======================== */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 17px/1.6 var(--font);
+  color: var(--ink);
+  background: var(--paper);
+}
+
+/* every section sits in a centred column */
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+section {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem 0;
+}
+
+h1, h2 { line-height: 1.2; }
+a { color: var(--accent); }
+
+/* a reusable button. Use class="btn" on any link to get it. */
+.btn {
+  display: inline-block;
+  padding: .55rem 1rem;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn:hover { opacity: .9; }
+
+/* a reusable card. Use class="card". */
+.card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  background: #fff;
+}
+
+/* the grey placeholder box you see before a section is built */
+.todo {
+  border: 2px dashed var(--line);
+  padding: 1rem;
+  color: #6b6457;
+}

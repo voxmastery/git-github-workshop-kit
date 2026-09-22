@@ -37,8 +37,10 @@ git switch -c feature/contact
 git switch -c feature/footer
 ```
 
-## 4.3 Build your section with the AI agent
-Open the Antigravity agent panel and paste this, changing the file name and the section:
+## 4.3 Build your section
+**Without AI (the default):** open your file. It already has a working section with sample content, and every line you should change is marked `<!-- CHANGE THIS -->`. Change those lines to your own content, save, refresh the browser. That's a complete contribution.
+
+**With the Antigravity agent (optional):** paste this, changing the file name and the section:
 
 > You are editing ONLY the file `sections/navbar.js` in this repo. Do not touch any other file, and do not run any git commands. The file sets `document.getElementById("navbar").innerHTML` to a template string. Replace the placeholder inside the backticks with a clean, modern **navbar** for a college events website called "RUAS Campus Events": a logo text on the left, links to Events, Contact and Register on the right, and a subtle bottom border. Use inline `<style>` inside the string for anything beyond what `style.css` gives you. Keep it under 40 lines. Show me the final file.
 
