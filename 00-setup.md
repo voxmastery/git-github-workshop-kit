@@ -24,9 +24,16 @@ Do these in order. Ten minutes, once, ever.
 sudo apt update && sudo apt install git -y
 ```
 
-## 0.3 Install VS Code
-https://code.visualstudio.com — download, install, open once.
-On Windows, during install tick **"Add to PATH"** if you see it.
+## 0.3 Install your editor: Antigravity (or VS Code)
+We use **Google Antigravity**, a free AI editor built on VS Code. Same terminal, same Git, plus an AI agent panel for building the site.
+
+1. https://antigravity.google/download → download for your OS (about 200 MB).
+2. Install, open it, **sign in with your Google account**.
+3. Open the terminal inside it: **View → Terminal** (or `` Ctrl+` ``). Every command in this kit runs there.
+
+**If the download is slow or the install fails**, don't wait: install **VS Code** instead (https://code.visualstudio.com), it's identical for everything in this kit except the AI panel, and your teammate's Antigravity can build the site. Codespaces (0.7) is the fallback after that.
+
+**One rule with the AI agent:** it will offer to run `git` commands for you. **Say no.** You type the Git commands yourself today; that's the whole point. Use the agent for HTML and CSS only.
 
 ## 0.4 Check it worked
 Open a terminal:
