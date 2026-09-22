@@ -1,5 +1,5 @@
 // ============================================================
-//  EVENTS — owned by: <your GitHub username>
+//  EVENTS — Person A (second file)
 //  Branch: git switch -c feature/events
 // ============================================================
 //

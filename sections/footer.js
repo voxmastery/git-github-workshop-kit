@@ -1,5 +1,5 @@
 // ============================================================
-//  FOOTER — owned by: <your GitHub username>
+//  FOOTER — Person B (second file)
 //  Branch: git switch -c feature/footer
 // ============================================================
 //

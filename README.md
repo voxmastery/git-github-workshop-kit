@@ -170,68 +170,91 @@ The projects section is on `main` now, on GitHub and on your laptop.
 
 ## STEP 4 — Team site (4:15)
 
-Teams of 2–4. One site, one file per person, nobody edits anyone else's file.
+Teams of 2. One site, two files each, nobody edits the other person's files.
 
-### 4.1 Team leader only
+### 4.1 Person A only
 1. Open **this repo** → green **Use this template** → **Create a new repository** → name `team-<yourname>` → Public → **Create**.
-2. **Settings → Collaborators → Add people** → every teammate.
-3. Green **Code** → copy URL → paste it in your team's chat.
-Teammates: 🔔 bell → **Accept invitation**.
+2. **Settings → Collaborators → Add people** → Person B's username.
+3. Green **Code** → copy URL → send it to Person B.
+Person B: 🔔 bell on github.com → **Accept invitation**.
 
-### 4.2 Everyone — pick your section
+### 4.2 Who does what
 
-| Person | File | Branch name |
+| | First file | Then |
 |---|---|---|
-| 1 | `sections/navbar.js` | `feature/navbar` |
-| 2 | `sections/events.js` | `feature/events` |
-| 3 | `sections/contact.js` | `feature/contact` |
-| 4 | `sections/footer.js` | `feature/footer` |
+| **Person A** | `sections/navbar.js` on branch `feature/navbar` | `sections/events.js` on `feature/events` |
+| **Person B** | `sections/contact.js` on branch `feature/contact` | `sections/footer.js` on `feature/footer` |
 
-Team of 2: Person 1 does navbar then events; Person 2 does contact then footer.
-
-### 4.3 Everyone — clone and branch
-(Replace the URL with your team's. Replace `navbar` with your section.)
+### 4.3 Both — clone the team repo
 ```bash
 cd ~/Desktop
 git clone PASTE-TEAM-URL-HERE
 cd team-*
+```
+Open the folder in your editor (File → Open Folder → Desktop → `team-…`), then View → Terminal.
+
+### 4.4 Person A — navbar
+```bash
 git switch -c feature/navbar
 ```
-
-### 4.4 Edit your file
-Open Folder in your editor. Open `sections/navbar.js` (your file). It already works; change only the lines marked `CHANGE THIS`. Save. Double-click `index.html` to see the site.
-
-*Optional, if you have Antigravity:* in the agent panel: *"Edit ONLY sections/navbar.js. Don't touch other files, don't run git. Replace the placeholder HTML with a modern navbar for a college events site."*
-
-### 4.5 Send it
+Open `sections/navbar.js`. Change the `CHANGE THIS` lines. Save. Double-click `index.html` to check.
 ```bash
 git add sections/navbar.js
 git commit -m "Add navbar"
 git push -u origin feature/navbar
 ```
 
-### 4.6 Pull request, review, merge
-- You: yellow bar → **Compare & pull request** → **Create pull request**.
-- A teammate: your PR → **Files changed** → **Review changes** → **Approve** → **Submit**.
-- You: **Merge pull request** → **Confirm merge**.
+### 4.4 Person B — contact (at the same time)
+```bash
+git switch -c feature/contact
+```
+Open `sections/contact.js`. Change the `CHANGE THIS` lines. Save. Double-click `index.html` to check.
+```bash
+git add sections/contact.js
+git commit -m "Add contact"
+git push -u origin feature/contact
+```
 
-### 4.7 Everyone, after every merge
+*Optional, if you have Antigravity:* agent panel → *"Edit ONLY sections/navbar.js (or your file). Don't touch other files, don't run git. Replace the placeholder HTML with a modern version of this section for a college events site."*
+
+### 4.5 Both — pull request, review each other, merge
+- **You:** github.com → yellow bar → **Compare & pull request** → **Create pull request**.
+- **Your partner:** open your PR → **Files changed** → **Review changes** → **Approve** → **Submit review**.
+- **You:** **Merge pull request** → **Confirm merge**.
+Do it for both PRs.
+
+### 4.6 Both — get each other's work
 ```bash
 git switch main
 git pull
 ```
-Double-click `index.html`. Everyone's sections are in it.
+Double-click `index.html`. Both sections are there. Neither of you touched the other's file.
 
-### 4.8 Second file (teams of 2)
+### 4.7 Second file — same thing again
+**Person A**
 ```bash
-git switch main
-git pull
 git switch -c feature/events
 ```
-Then repeat 4.4 → 4.7 with `events`.
+Edit `sections/events.js` → save → check.
+```bash
+git add sections/events.js
+git commit -m "Add events"
+git push -u origin feature/events
+```
+**Person B**
+```bash
+git switch -c feature/footer
+```
+Edit `sections/footer.js` → save → check.
+```bash
+git add sections/footer.js
+git commit -m "Add footer"
+git push -u origin feature/footer
+```
+Then 4.5 and 4.6 again. Four merged PRs = a finished site.
 
-### 4.9 If you finish early
-One person, new branch `feature/style`, change the colours at the top of `style.css`, PR, review, merge. Now it looks like one site.
+### 4.8 If you finish early
+One of you: `git switch -c feature/style`, change the colours at the top of `style.css`, PR, partner approves, merge. Now it looks like one site.
 
 ---
 

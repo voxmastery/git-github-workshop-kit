@@ -1,5 +1,5 @@
 // ============================================================
-//  CONTACT — owned by: <your GitHub username>
+//  CONTACT — Person B
 //  Branch: git switch -c feature/contact
 // ============================================================
 //

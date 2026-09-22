@@ -1,5 +1,5 @@
 // ============================================================
-//  NAVBAR — owned by: <your GitHub username>
+//  NAVBAR — Person A
 //  Branch: git switch -c feature/navbar
 // ============================================================
 //
