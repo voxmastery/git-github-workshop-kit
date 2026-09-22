@@ -1,5 +1,7 @@
 # 4 · Pair project — build one site together
 
+**Just the commands:** [team-commands.md](team-commands.md) has a copy-paste block per person. This page explains what's happening.
+
 **Goal:** two people, one repo, four sections, zero fights.
 
 **Teams of 2–4.** Sit together. At least two laptops per team; if you don't have one, you pair up with someone who does and drive for half the time.
