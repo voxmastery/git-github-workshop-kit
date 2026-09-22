@@ -2,7 +2,7 @@
 
 **Goal:** two people, one repo, four sections, zero fights.
 
-Your pair has a starter repo (`cynergy-ruas/team-XX`). Both of you are already collaborators. It's a small College Events site with four section files:
+Your pair has a starter repo (link in the WhatsApp group, `team-XX`). Both of you are already collaborators. It's a small College Events site with four section files:
 
 | File | Who |
 |------|-----|
@@ -16,7 +16,7 @@ Each of you **only touches your own files**. That's how teams avoid stepping on 
 ## 4.1 Both: clone the team repo
 ```bash
 cd ~/Desktop
-git clone https://github.com/cynergy-ruas/team-XX.git
+git clone <your-team-repo-url>
 cd team-XX
 code .
 ```
