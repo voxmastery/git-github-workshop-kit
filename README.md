@@ -15,6 +15,8 @@ Everything we do today is in this repo, in order. Keep it open in a browser tab 
 
 Also here: the one-page [cheat sheet](cheatsheet.md), the [troubleshooting](troubleshooting.md) list for when something goes red, and [what to learn next](next-steps.md).
 
+**How to read this:** each step has commands in grey boxes. Type them one line at a time and press Enter after each. Anything after `#` is a note for you, not something to type. Replace `YOUR-USERNAME` with your GitHub username.
+
 **Stuck?** Put the red sticky note on your laptop lid. A volunteer will come to you.
 
 **Registration / updates:** https://git-workshop-site.vercel.app/

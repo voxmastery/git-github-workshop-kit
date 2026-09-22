@@ -29,7 +29,12 @@ https://code.visualstudio.com — download, install, open once.
 On Windows, during install tick **"Add to PATH"** if you see it.
 
 ## 0.4 Check it worked
-Open a terminal (Git Bash on Windows, Terminal on Mac/Linux):
+Open a terminal:
+- **Windows:** Start menu → type **Git Bash** → open it
+- **Mac:** Cmd+Space → type **Terminal** → Enter
+- **Linux:** Ctrl+Alt+T
+
+Then type this and press Enter:
 ```bash
 git --version
 ```

@@ -6,7 +6,7 @@ A pull request is a request to bring your branch into `main`, with a place to di
 
 ## 3.1 Add your partner as a collaborator
 On your repo: **Settings → Collaborators → Add people** → their GitHub username.
-They get an email; they must **accept** it.
+They get an email and a notification (the 🔔 bell on github.com). They must click **Accept invitation**, or the next steps won't work for them.
 
 ## 3.2 Open the PR
 1. On github.com click **Compare & pull request** (or **Pull requests → New**).

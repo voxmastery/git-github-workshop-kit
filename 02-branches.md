@@ -11,7 +11,15 @@ git switch -c feature/projects-section
 (`-c` = create. `git branch` lists your branches; the `*` shows where you are.)
 
 ## 2.2 Make a change
-In VS Code, add a **Projects** section to `index.html` (two or three lines). Save.
+In `index.html`, paste this just above `</main>`, then save:
+```html
+<h2>Projects</h2>
+<ul>
+  <li>A thing I built</li>
+  <li>A thing I'm building</li>
+</ul>
+```
+Refresh the page in your browser to see it.
 
 ## 2.3 Commit it on the branch
 ```bash

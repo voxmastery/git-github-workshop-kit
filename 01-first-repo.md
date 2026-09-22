@@ -30,9 +30,18 @@ cd about-me
 ```bash
 code .
 ```
+If that says `command not found` (common on Mac): open VS Code yourself → **File → Open Folder…** → pick the `about-me` folder on your Desktop. Same result.
+
+Then open VS Code's own terminal: **View → Terminal** (or `` Ctrl+` ``). It's already inside the right folder. Use that for every command from here on.
 
 ## 1.5 Add the page
-Create two files in VS Code: copy from [`starter/index.html`](starter/index.html) and [`starter/style.css`](starter/style.css). Change the name and the three interests to yours.
+In VS Code's left panel, hover over `ABOUT-ME` → click the **New File** icon → name it `index.html`. Repeat for `style.css`.
+
+Fill them with the starter content:
+- Open [`starter/index.html`](starter/index.html) in this repo → click **Raw** (top right) → Ctrl+A, Ctrl+C → paste into your `index.html`.
+- Same for [`starter/style.css`](starter/style.css).
+
+Change the name and the three interests to yours. **Save** (Ctrl+S). Files with a white dot on the tab are not saved yet.
 
 Open `index.html` in your browser (double-click it) to see it.
 
