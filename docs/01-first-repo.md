@@ -38,8 +38,8 @@ Then open VS Code's own terminal: **View → Terminal** (or `` Ctrl+` ``). It's 
 In VS Code's left panel, hover over `ABOUT-ME` → click the **New File** icon → name it `index.html`. Repeat for `style.css`.
 
 Fill them with the starter content:
-- Open [`starter/index.html`](starter/index.html) in this repo → click **Raw** (top right) → Ctrl+A, Ctrl+C → paste into your `index.html`.
-- Same for [`starter/style.css`](starter/style.css).
+- Open [`starter/index.html`](../starter/index.html) in this repo → click **Raw** (top right) → Ctrl+A, Ctrl+C → paste into your `index.html`.
+- Same for [`starter/style.css`](../starter/style.css).
 
 Change the name and the three interests to yours. **Save** (Ctrl+S). Files with a white dot on the tab are not saved yet.
 
