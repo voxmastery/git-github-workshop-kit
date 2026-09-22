@@ -5,12 +5,12 @@
 **Teams of 2–4.** Sit together. At least two laptops per team; if you don't have one, you pair up with someone who does and drive for half the time.
 
 ## 4.0 One person makes the team repo (2 minutes)
-1. Open https://github.com/voxmastery/git-workshop-team-template
+1. Open https://github.com/voxmastery/git-github-workshop-kit (this repo)
 2. Click the green **Use this template → Create a new repository**
 3. Name it `team-<yourteamname>`, Public, **Create repository**
 4. **Settings → Collaborators → Add people** → every teammate's GitHub username. Teammates: accept the invite from the 🔔 bell.
 
-It's a small College Events site with four section files:
+Your copy contains this whole kit plus the team site: `index.html`, `style.css` and four section files:
 
 | File | Team of 4 | Team of 2 |
 |------|-----------|-----------|

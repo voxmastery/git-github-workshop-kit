@@ -1,7 +1,7 @@
 # Git & GitHub Workshop Kit — The First Commit
 **Cynergy Coding Club · Dept. of CSE · RUAS** · Tue 22 Sep 2026 · Room A206
 
-Everything we do today is in this repo, in order. Keep it open in a browser tab while we go, and copy commands from here instead of the projector.
+Everything we do today is in this repo, in order. It's also the **template for your team site** (step 4): `index.html`, `style.css`, `sections/`. Keep it open in a browser tab while we go, and copy commands from here instead of the projector.
 
 | # | Step | What you'll have at the end |
 |---|------|-----------------------------|
